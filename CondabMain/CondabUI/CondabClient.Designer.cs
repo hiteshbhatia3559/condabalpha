@@ -93,7 +93,7 @@
             // addItemtoCart
             // 
             this.addItemtoCart.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addItemtoCart.Location = new System.Drawing.Point(300, 546);
+            this.addItemtoCart.Location = new System.Drawing.Point(300, 535);
             this.addItemtoCart.Name = "addItemtoCart";
             this.addItemtoCart.Size = new System.Drawing.Size(193, 58);
             this.addItemtoCart.TabIndex = 5;
@@ -133,7 +133,7 @@
             // purchaseCart
             // 
             this.purchaseCart.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.purchaseCart.Location = new System.Drawing.Point(825, 97);
+            this.purchaseCart.Location = new System.Drawing.Point(943, 97);
             this.purchaseCart.Name = "purchaseCart";
             this.purchaseCart.Size = new System.Drawing.Size(193, 36);
             this.purchaseCart.TabIndex = 9;
