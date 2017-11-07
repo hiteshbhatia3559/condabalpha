@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerApplication", "Server
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApplication", "ClientApplication\ClientApplication.csproj", "{9E7163E0-55C0-4400-A40A-1EBF4D125092}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondabGUIClient", "WindowsFormsApp2\CondabGUIClient.csproj", "{7929CF12-3B1F-4751-A5C4-E34AB8CCA994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondabGUIServer", "CondabGUIServer\CondabGUIServer.csproj", "{CD0B9D1B-98D9-489C-B3F7-2544771B6691}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{9E7163E0-55C0-4400-A40A-1EBF4D125092}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E7163E0-55C0-4400-A40A-1EBF4D125092}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E7163E0-55C0-4400-A40A-1EBF4D125092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7929CF12-3B1F-4751-A5C4-E34AB8CCA994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7929CF12-3B1F-4751-A5C4-E34AB8CCA994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7929CF12-3B1F-4751-A5C4-E34AB8CCA994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7929CF12-3B1F-4751-A5C4-E34AB8CCA994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD0B9D1B-98D9-489C-B3F7-2544771B6691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD0B9D1B-98D9-489C-B3F7-2544771B6691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD0B9D1B-98D9-489C-B3F7-2544771B6691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD0B9D1B-98D9-489C-B3F7-2544771B6691}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
