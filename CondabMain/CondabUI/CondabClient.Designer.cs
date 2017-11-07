@@ -38,6 +38,9 @@
             this.CartListBox = new System.Windows.Forms.ListBox();
             this.removeItemfromCart = new System.Windows.Forms.Button();
             this.purchaseCart = new System.Windows.Forms.Button();
+            this.ClientAddress = new System.Windows.Forms.Label();
+            this.ClientBalance = new System.Windows.Forms.Label();
+            this.fileDownload = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // HeaderText
@@ -140,11 +143,43 @@
             this.purchaseCart.Text = "Purchase Cart";
             this.purchaseCart.UseVisualStyleBackColor = true;
             // 
+            // ClientAddress
+            // 
+            this.ClientAddress.AutoSize = true;
+            this.ClientAddress.Location = new System.Drawing.Point(946, 155);
+            this.ClientAddress.Name = "ClientAddress";
+            this.ClientAddress.Size = new System.Drawing.Size(74, 13);
+            this.ClientAddress.TabIndex = 10;
+            this.ClientAddress.Text = "Client Address";
+            this.ClientAddress.Click += new System.EventHandler(this.label1_Click_1);
+            // 
+            // ClientBalance
+            // 
+            this.ClientBalance.AutoSize = true;
+            this.ClientBalance.Location = new System.Drawing.Point(946, 193);
+            this.ClientBalance.Name = "ClientBalance";
+            this.ClientBalance.Size = new System.Drawing.Size(92, 13);
+            this.ClientBalance.TabIndex = 11;
+            this.ClientBalance.Text = "Available Balance";
+            this.ClientBalance.Click += new System.EventHandler(this.label1_Click_2);
+            // 
+            // fileDownload
+            // 
+            this.fileDownload.Location = new System.Drawing.Point(949, 224);
+            this.fileDownload.Name = "fileDownload";
+            this.fileDownload.Size = new System.Drawing.Size(186, 48);
+            this.fileDownload.TabIndex = 12;
+            this.fileDownload.Text = "Download File";
+            this.fileDownload.UseVisualStyleBackColor = true;
+            // 
             // CondabClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1399, 616);
+            this.Controls.Add(this.fileDownload);
+            this.Controls.Add(this.ClientBalance);
+            this.Controls.Add(this.ClientAddress);
             this.Controls.Add(this.purchaseCart);
             this.Controls.Add(this.removeItemfromCart);
             this.Controls.Add(this.CartListBox);
@@ -175,6 +210,9 @@
         private System.Windows.Forms.ListBox CartListBox;
         private System.Windows.Forms.Button removeItemfromCart;
         private System.Windows.Forms.Button purchaseCart;
+        private System.Windows.Forms.Label ClientAddress;
+        private System.Windows.Forms.Label ClientBalance;
+        private System.Windows.Forms.Button fileDownload;
     }
 }
 
